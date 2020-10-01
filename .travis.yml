@@ -7,7 +7,7 @@ env:
   global:
   - REACT_APP_API_BASE_URL=http://localhost:8080
   - PACT_BROKER_BASE_URL=https://will-poc.pactflow.io
-  # PACT_BROKER_TOKEN is encrypted below
+  # PACT_BROKER_TOKEN is encrypted below. Just want to change something here
   - secure: "l4wL6eck2sfw1Iel9o6GF6YP0tYP2e9yWqJjxTtXhzJPGimHcb4w40qHkaSpKJMwmH1+/7MHCxzJ81EmWlouvvrW2YTbCpNjBelqmX7Skui8yh5FTQ/vq3/rKkIOMXX6g6AI8mgt23T5UipeZP0mo5cAiJxvoG0M+ZMSxZNApCPyx2VU6A1HxadqHGnw9b6dLAfp3M7MZ+/VbO8qjeAAfdsYVdjIpxsMT6K2jBuPkJ7IIddbOUj8mHyhYjT5gFOQmn58MQhAsHQR/KvnzY/u1QH0ufikN1egYNAfY8XaimHa8cybSQbLYGsma/cJEN4qSNzUIeVOpcS8XPspHZp6UGMZYP7+D2q1v3y3K9qxxU653cad8yaoI1aLhNyD0laoOwptY7CT48B0RI8HKGLjLXx0nRAGE5JcwIu0BxeeLiVdGTd2GxWow6hWSwpTXTnd7Hep0qQGahQvG8ZXER9QGzby5b7u7IYKvvJNy2hBHhMxifb7kQA9XUO719QqOQZdEgKebmsdeu4H6M9evpzgsdrM8NnZi9fMhxkWILm6319y6w1HqBSgZJIsQMxrk/h8EVCoXayM51Rk3zKDH9g1MfrHyHvFo081xLPTXrnlHbiTE4IPfsxTXm7u2b5Y/Ieh8KW5TY0UUZnCJlLbOUdwxU/hN7xz+nqLXP3l0ny5YVo="
 before_script:
   - docker pull pactfoundation/pact-cli:latest
